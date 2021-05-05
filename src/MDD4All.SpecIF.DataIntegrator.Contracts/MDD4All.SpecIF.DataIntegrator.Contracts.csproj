@@ -4,10 +4,14 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>MDD4All_Github.snk</AssemblyOriginatorKeyFile>
+    <Authors>Dr. Oliver Alt</Authors>
+    <Company>MDD4All.de</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>SpecIF DataIntegrator Contracts</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MDD4All.SpecIF.DataModels\src\MDD4All.SpecIF.DataModels\MDD4All.SpecIF.DataModels.csproj" />
+    <PackageReference Include="MDD4All.SpecIF.DataModels" Version="4.0.0.25" />
   </ItemGroup>
 
 </Project>

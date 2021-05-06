@@ -8,6 +8,7 @@
     <Company>MDD4All.de</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageTags>SpecIF DataIntegrator Contracts</PackageTags>
+    <Description>Contract definitions for tool data integration.</Description>
   </PropertyGroup>
 
   <ItemGroup>

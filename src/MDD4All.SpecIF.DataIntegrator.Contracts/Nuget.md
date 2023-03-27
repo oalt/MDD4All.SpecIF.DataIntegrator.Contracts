@@ -1,0 +1,1 @@
+﻿Contract interface definitions for SpecIF-event based realtime data integration.
